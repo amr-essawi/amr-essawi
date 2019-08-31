@@ -1,22 +1,42 @@
-body{background: #888}
+body{}
 
 .container{width: 1170px; margin: auto}
 
-.header{background-color: #252F31;color: #FFF}
+.clearfix{clear: both}
 
-.header .slider{background-color: #EEE;height:600px}
+.header .slider   {
+    background-image: url('../img/img-3.jpg') ;
+    background-size: cover;
+    -moz-background-size: background-size: cover;
+    -webkit-background-size: background-size: cover;
+    -o-background-size: cover;
+    height: 600px
+    }
+
+.header .slider .container .intro { padding-top:300px ; text-align:center ; color: #FFF}
+
+.header .slider .container .intro h2 {
+    margin: 0 auto ;
+    border-bottom: 4px solid #FFF;
+    border-top: 5px solid #FFF;
+    width: 600px ;
+    font-size:50px ;
+    padding: 5px}
+
+/*.header .slider .container .intro button {
+ *width:140px ; height: 30px ; font-size: 20px ; background: none ; color: #FFF ; margin-top: 5px}*/
+
 
 .header .navbar{
     background-color: #252F31;
     color: #FFF;
-    overflow: hidden
+    overflow: hidden   
 }
 
-.header .navbar h2{float: left; text-transform: uppercase}
+.header .navbar h2{ text-transform: uppercase ; text-align: center }
 
-.header .navbar h2 span{color:#2ecc71}
 
-.header .navbar ul{
+/*.header .navbar ul{
     list-style: none;
     padding-left: 0;
     overflow: hidden;
@@ -24,3 +44,88 @@ body{background: #888}
 }
 
 .header .navbar ul li {float: left; padding: 10px}
+
+/*.feature {overflow: hidden; padding-top: 40px; padding-bottom:50px}
+
+.feature  .feat {float: left; width : 33.333%}
+
+.feature  .feat h2{text-transform: capitalize ;color: #444 ; text-align: justify ; padding: 0 20px 0 0}
+
+.feature  .feat p {line-height: 1.7 ; color: #888}*/
+
+
+.aboutMe{ background-color:#f2f2f2; overflow: hidden}
+
+.aboutMe .img {width:40%; float: left ; padding-top: 10px}
+
+.aboutMe .img img {width: 100% }
+
+.aboutMe  .info {width:60% ; float: left; line-height: 1.6 }
+
+.aboutMe  .info .objective h2 {margin: 25px 0 20px 40px ; color: #555}
+
+.aboutMe  .info .objective p {margin: 0 0 10px 40px ; color: #666}
+
+
+.aboutMe  .info .information h2 {margin: 25px 0 20px 40px ; color: #555}
+
+.aboutMe  .info .information p {margin: 0 0 10px 40px ; color: #666 ;text-align: justify}
+
+.aboutMe  .info p:last-of-type{margin-top: 25px}
+
+.aboutMe  .info .myEducation .main h2 {margin: 25px 0 20px 40px ; color: #555}
+
+.aboutMe  .info .myEducation .main h3 {margin: 25px 0 20px 40px ; color: #555}
+
+.aboutMe  .info .myEducation .main p {margin: 0 0 10px 40px ; color: #666}
+
+/*.aboutMe .info .hobbies { overflow: hidden}
+
+.aboutMe .info .hobbies > div{ float: left ; width: 50% }*/
+
+.mySkills {padding-bottom: 30px ; padding-top: 30px ; overflow: hidden}
+
+.mySkills .skills,
+.mySkills .percentage
+{width:50% ; float: left}
+
+.mySkills .skills  h2 {margin: 25px 0 20px 40px ; color: #555}
+
+.mySkills .skills  p {margin: 0 0 10px 40px ; color: #555}
+
+.mySkills .percentage .bar div {background-color: #f2f2f2 ; height: 20px }
+
+.mySkills .percentage .bar div span{background-color: #2DCC70 ; height: 20px ;display: block; line-height: 20PX; text-align: right ; color: #FFF}
+
+/*.resume {background-color:#F2F2F2; padding-top: 30px ; padding-bottom: 30px ; text-align: center }*/
+
+
+
+
+/*.testimonials
+{background-color: #F2F2F2;padding-top: 30px ; padding-bottom: 30px ; text-align: center}
+
+.portofolio
+{background-color: #F2F2F2;padding-top: 30px ; padding-bottom: 30px ; text-align: center}
+
+.portofolio .ourWork{overflow: hidden}
+
+.portofolio .ourWork > div {float: left ; width: 33% ; margin-bottom: 15px}
+
+.portofolio .ourWork > div img {width: 100% ; margin: 10px}*/
+
+.contactMe { padding-top: 30px ; padding-bottom: 30px ; overflow: hidden ; background-color: #252E31 ; text-align: center}
+
+.contactMe .info h2 {color: #fff}
+
+.contactMe .info p{color: red}
+
+.contactMe .info p span { color: #fff}
+
+
+
+
+
+
+
+
